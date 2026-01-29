@@ -7,6 +7,9 @@ import { Scissors, LayoutDashboard, ShoppingBag, List, Users, Settings, LogOut, 
 import Link from 'next/link';
 import Sidebar from '@/components/Sidebar';
 import { useTheme } from '@/components/ThemeProvider';
+import { redirect } from 'next/navigation';
+
+
 
 export default function AdminPage() {
   const router = useRouter();
