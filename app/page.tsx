@@ -1,6 +1,7 @@
 import { redirect } from 'next/navigation';
 
 export default function Home() {
-  // This sends you instantly to the real Login Page
+  // Instead of running a test that fails on empty data,
+  // we just send the user straight to the login page.
   redirect('/login');
 }
